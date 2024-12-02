@@ -1,8 +1,11 @@
-body {background-color: #33401c;}
+body {background-color: #33401c;
+     text-align: center;}
 h1 {color: black; 
 font-family: Dear Mr Pazuzu; 
-font-size: 80px;}
+font-size: 80px;
+   text-align: center;}
 p {color: black;
 font-family: Helvetica;
-font-size: 20px;}
+font-size: 20px;
+  text-align: center;}
 a {color: lightgoldenrodyellow;}
