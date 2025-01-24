@@ -1,4 +1,4 @@
-body {background-color: #33401c;
+body {background-color: black;
      text-align: center;}
 h1 {color: black; 
 font-family: Dear Mr Pazuzu; 
@@ -9,3 +9,8 @@ font-family: Helvetica;
 font-size: 20px;
   text-align: center;}
 a {color: lightgoldenrodyellow;}
+
+button{background-color: black;
+text-align: center;
+font-family: Helvetica;
+font-size: 10px;}
