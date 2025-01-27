@@ -2,7 +2,7 @@ function setup()
  createCanvas 
 
 
- functio draw
+ functiondraw
  background
  stroke
  fill
