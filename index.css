@@ -1,0 +1,30 @@
+body {  
+
+    background-image: url("https://wallpaperaccess.com/full/9246833.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    background-color: black;
+    
+    color: white;
+    font-family: 'Inter', sans-serif;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill-opacity: 0.1;
+    }
+
+.bone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+}
+
+.bone:active {
+    transform: translate(-50%, -50%) rotate(360deg);
+    opacity: 1;
+}
