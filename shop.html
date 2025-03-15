@@ -7,8 +7,13 @@
     <link rel = "stylesheet" type = "text/css" href = "modern.css">
 </head>
 <body>
-<img src = "https://raw.githubusercontent.com/daidarkcel/dmc/refs/heads/main/modern%20images/misetani.png" alt = "shop valley" width = "200">
-<ul>
+    <div class="misetani">
+        <img src = "https://raw.githubusercontent.com/daidarkcel/dmc/refs/heads/main/modern%20images/misetani.png" alt = "shop valley" width = "200">
+    <p>Welcome to the Shop Valley Box. Currently out of stock, but we will be back soon.</p>
+
+    
+</div>
+<ul class="depop">
     <li>LEVI 501s</li>
     <li>LEVI 505s</li>
     <li>LEVI 560s</li>
@@ -16,19 +21,41 @@
     <li>Billionaire Boys Club</li>
     <li>Members Only</li>
 </ul>
-<ul>
+<ul class="mercari">
     <li>Elgato HD60s</li>
     <li>Mic Stand</li>
 </ul>
 
 
-    <footer>
-        <button>
-            <a href="legacy/legacy.html">LEGACY</a>  
-        </button>
-        <p> support my friends:
-        </p>
+    
 
+    <footer>
+
+        <div class="bone-converter">
+            <p>don't know how much you have? here's a converter.</p>
+            <form>
+                <input type="number" id="bones" name="bones" required> 
+                <input type="number" placeholder="usd">
+                <input type="submit" value="convert">
+            </div>
+
+        </form>
+        <button class="depop">
+            <a href="https://www.depop.com/bonecel/"></a>
+            depop
+        </button>
+        
+        <button class="mercari">
+        <a href="https://www.mercari.com/u/hakkengabber/"></a>
+            mercari
+        </button>
+        <p>This site takes inspiration from manga series Dai Dark and animanga series Dorohedoro on Netflix. The use of assets on this website
+            falls under fair use.</p>
+            <div class="credits">
+                <button onclick="location.href='credits.html'">credits</button>
+            </div>
     </footer>
+
+    <script src="modern.js"></script>
 </body>
 </html>

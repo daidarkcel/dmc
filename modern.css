@@ -4,7 +4,6 @@ background-image: url("https://wallpaperaccess.com/full/9246833.jpg");
 background-size: cover;
 background-repeat: repeat;
 background-color: black;
-
 color: white;
 font-family: 'Inter', sans-serif;
 height: 100vh;
@@ -12,7 +11,42 @@ margin: 0;
 display: flex;
 justify-content: center;
 align-items: center;
-fill-opacity: 0.1;
+}
+
+/*
+
+ ███▄ ▄███▓ ▄▄▄       ██▓ ███▄    █ 
+▓██▒▀█▀ ██▒▒████▄    ▓██▒ ██ ▀█   █ 
+▓██    ▓██░▒██  ▀█▄  ▒██▒▓██  ▀█ ██▒
+▒██    ▒██ ░██▄▄▄▄██ ░██░▓██▒  ▐▌██▒
+▒██▒   ░██▒ ▓█   ▓██▒░██░▒██░   ▓██░
+░ ▒░   ░  ░ ▒▒   ▓▒█░░▓  ░ ▒░   ▒ ▒ 
+░  ░      ░  ▒   ▒▒ ░ ▒ ░░ ░░   ░ ▒░
+░      ░     ░   ▒    ▒ ░   ░   ░ ░ 
+       ░         ░  ░ ░           ░ 
+                                    
+
+*/
+
+
+
+.logo-container {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  background-size: contain;
+
+}
+
+.content {
+
+margin-top: 100px;
+text-align: center;
+
 }
 
 button {
@@ -25,7 +59,296 @@ text-decoration: wavy;
 display: inline-block;
 font-size: 16px;
 margin: 4px 2px;
+
 }
+
+
+/*
+
+ ███▄    █  ▄▄▄    ██▒   █▓ ██▓  ▄████  ▄▄▄     ▄▄▄█████▓ ██▓ ▒█████   ███▄    █ 
+ ██ ▀█   █ ▒████▄ ▓██░   █▒▓██▒ ██▒ ▀█▒▒████▄   ▓  ██▒ ▓▒▓██▒▒██▒  ██▒ ██ ▀█   █ 
+▓██  ▀█ ██▒▒██  ▀█▄▓██  █▒░▒██▒▒██░▄▄▄░▒██  ▀█▄ ▒ ▓██░ ▒░▒██▒▒██░  ██▒▓██  ▀█ ██▒
+▓██▒  ▐▌██▒░██▄▄▄▄██▒██ █░░░██░░▓█  ██▓░██▄▄▄▄██░ ▓██▓ ░ ░██░▒██   ██░▓██▒  ▐▌██▒
+▒██░   ▓██░ ▓█   ▓██▒▒▀█░  ░██░░▒▓███▀▒ ▓█   ▓██▒ ▒██▒ ░ ░██░░ ████▓▒░▒██░   ▓██░
+░ ▒░   ▒ ▒  ▒▒   ▓▒█░░ ▐░  ░▓   ░▒   ▒  ▒▒   ▓▒█░ ▒ ░░   ░▓  ░ ▒░▒░▒░ ░ ▒░   ▒ ▒ 
+░ ░░   ░ ▒░  ▒   ▒▒ ░░ ░░   ▒ ░  ░   ░   ▒   ▒▒ ░   ░     ▒ ░  ░ ▒ ▒░ ░ ░░   ░ ▒░
+   ░   ░ ░   ░   ▒     ░░   ▒ ░░ ░   ░   ░   ▒    ░       ▒ ░░ ░ ░ ▒     ░   ░ ░ 
+         ░       ░  ░   ░   ░        ░       ░  ░         ░      ░ ░           ░ 
+                       ░                                                         
+
+*/
+.legacy {
+  background-color: darkolivegreen;
+  padding: 10px 32px;
+  text-decoration: none;
+}
+
+.legacy a {
+  color: white;
+  text-decoration: none;
+    
+}
+
+.brightness
+{
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  width:200px;
+  height:100%;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-family: 'Dear Mr Pazuzu';
+  font-size: 50px;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.brightness p {
+  color: rgb(36, 33, 33);
+  text-decoration: none;
+}
+
+.spinalcord {
+  position: fixed;
+  
+  bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+
+
+}
+
+
+
+/* 
+
+ ██████  ██▓     ██▓▓█████▄ ▓█████  ██▀███  
+▒██    ▒ ▓██▒    ▓██▒▒██▀ ██▌▓█   ▀ ▓██ ▒ ██▒
+░ ▓██▄   ▒██░    ▒██▒░██   █▌▒███   ▓██ ░▄█ ▒
+  ▒   ██▒▒██░    ░██░░▓█▄   ▌▒▓█  ▄ ▒██▀▀█▄  
+▒██████▒▒░██████▒░██░░▒████▓ ░▒████▒░██▓ ▒██▒
+▒ ▒▓▒ ▒ ░░ ▒░▓  ░░▓   ▒▒▓  ▒ ░░ ▒░ ░░ ▒▓ ░▒▓░
+░ ░▒  ░ ░░ ░ ▒  ░ ▒ ░ ░ ▒  ▒  ░ ░  ░  ░▒ ░ ▒░
+░     ░      ░  ░ ░     ░       ░  ░   ░                       
+        
+*/
+
+
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none; /* removes the default webkit styles */
+  width: 20px;
+  height: 200px;
+  background: url('https://raw.githubusercontent.com/daidarkcel/dmc/refs/heads/main/modern%20images/SPINALCORD.png') no-repeat center center;
+  background-size: cover; /* Scale the background image to cover the entire slider track */
+  outline: none;
+  opacity: 1;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  width: 200px; /* Adjust the width of the track */
+  height: 200px; /* Adjust the height of the track */
+  background-size: cover; /* Scale the background image to cover the entire slider track */
+  border-radius: 5px;
+  
+}
+
+input[type="range"]::-moz-range-track {
+  width: 200px;
+  height: 200px; /* Adjust the height of the track */
+  background-size: cover; /* Scale the background image to cover the entire slider track */
+  border-radius: 5px;
+  
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 50px; /* Adjust the width of the thumb */
+  height: 50px; /* Adjust the height of the thumb */
+  background: url('https://raw.githubusercontent.com/daidarkcel/dmc/refs/heads/main/modern%20images/BONE3.png') no-repeat center center;
+  background-size: contain; /* Ensure the entire bone image is visible */
+  cursor: pointer;
+  border-radius: 50%;
+  margin-top: -10px
+  
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 200px; /* Adjust the width of the thumb */
+  height: 200px; /* Adjust the height of the thumb */
+  background: url('https://raw.githubusercontent.com/daidarkcel/dmc/refs/heads/main/modern%20images/BONE3.png') no-repeat center center;
+  background-size: contain; /* Ensure the entire bone image is visible */
+  cursor: pointer;
+  border-radius: 50%;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+▄████▄   ██▀███  ▓█████ ▓█████▄  ██▓▄▄▄█████▓  ██████ 
+▒██▀ ▀█  ▓██ ▒ ██▒▓█   ▀ ▒██▀ ██▌▓██▒▓  ██▒ ▓▒▒██    ▒ 
+▒▓█    ▄ ▓██ ░▄█ ▒▒███   ░██   █▌▒██▒▒ ▓██░ ▒░░ ▓██▄   
+▒▓▓▄ ▄██▒▒██▀▀█▄  ▒▓█  ▄ ░▓█▄   ▌░██░░ ▓██▓ ░   ▒   ██▒
+▒ ▓███▀ ░░██▓ ▒██▒░▒████▒░▒████▓ ░██░  ▒██▒ ░ ▒██████▒▒
+░ ░▒ ▒  ░░ ▒▓ ░▒▓░░░ ▒░ ░ ▒▒▓  ▒ ░▓    ▒ ░░   ▒ ▒▓▒ ▒ ░
+  ░  ▒     ░▒ ░ ▒░ ░ ░  ░ ░ ▒  ▒  ▒ ░    ░    ░ ░▒  ░ ░
+░          ░░   ░    ░    ░ ░  ░  ▒ ░  ░      ░  ░  ░  
+░ ░         ░        ░  ░   ░     ░                 ░  
+░                         ░                              
+
+
+*/
+.credits button {
+  background-color: black;
+  padding: 12px 2px;
+  text-decoration: none;
+  color: white;
+  
+
+
+}
+
+
+/*  
+
+ ██ ▄█▀ ▒█████   ██▀███    ██████  ▄▄▄      ▓█████▄  ██▓ ▄▄▄      
+ ██▄█▒ ▒██▒  ██▒▓██ ▒ ██▒▒██    ▒ ▒████▄    ▒██▀ ██▌▓██▒▒████▄    
+▓███▄░ ▒██░  ██▒▓██ ░▄█ ▒░ ▓██▄   ▒██  ▀█▄  ░██   █▌▒██▒▒██  ▀█▄  
+▓██ █▄ ▒██   ██░▒██▀▀█▄    ▒   ██▒░██▄▄▄▄██ ░▓█▄   ▌░██░░██▄▄▄▄██ 
+▒██▒ █▄░ ████▓▒░░██▓ ▒██▒▒██████▒▒ ▓█   ▓██▒░▒████▓ ░██░ ▓█   ▓██▒
+▒ ▒▒ ▓▒░ ▒░▒░▒░ ░ ▒▓ ░▒▓░▒ ▒▓▒ ▒ ░ ▒▒   ▓▒█░ ▒▒▓  ▒ ░▓   ▒▒   ▓▒█░
+░ ░▒ ▒░  ░ ▒ ▒░   ░▒ ░ ▒░░ ░▒  ░ ░  ▒   ▒▒ ░ ░ ▒  ▒  ▒ ░  ▒   ▒▒ ░
+░ ░░ ░ ░ ░ ░ ▒    ░░   ░ ░  ░  ░    ░   ▒    ░ ░  ░  ▒ ░  ░   ▒   
+░  ░       ░ ░     ░           ░        ░  ░   ░     ░        ░  ░
+ ░                    
+
+*/
+
+.korsadia {
+
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+
+}
+
+
+
+
+/* 
+
+  ██████  ██░ ██  ▒█████   ██▓███  
+▒██    ▒ ▓██░ ██▒▒██▒  ██▒▓██░  ██▒
+░ ▓██▄   ▒██▀▀██░▒██░  ██▒▓██░ ██▓▒
+  ▒   ██▒░▓█ ░██ ▒██   ██░▒██▄█▓▒ ▒
+▒██████▒▒░▓█▒░██▓░ ████▓▒░▒██▒ ░  ░
+▒ ▒▓▒ ▒ ░ ▒ ░░▒░▒░ ▒░▒░▒░ ▒▓▒░ ░  ░
+░ ░▒  ░ ░ ▒ ░▒░ ░  ░ ▒ ▒░ ░▒ ░     
+░  ░  ░   ░  ░░ ░░ ░ ░ ▒  ░░       
+      ░   ░  ░  ░    ░ ░           
+                               
+*/
+
+.shop a {
+  color: white;
+  text-decoration: none;
+}
+
+.shop
+{
+  background-color: transparent;
+  padding: 10px 32px;
+  text-decoration: none;
+  
+}
+
+.depop {
+  background-color: darkred;     
+  padding: 10px 32px;
+  }
+  
+  .depop a {
+    text-decoration: none;
+    color: black;
+  
+  }
+  .mercari {
+  background-color: #5558da;
+  padding: 10px 32px;
+  color: white;
+  }
+  
+  .mercari a {
+    text-decoration: none;
+    color: white;
+  }   
+
 
 footer {
   size: 10px;
@@ -35,9 +358,25 @@ footer {
   width: 100%;
   color: white;
   text-align: center;
-  opacity: 0.5;
+  opacity: 0.75;
   animation: fadeIn 1s;
 }
+
+
+
+/* 
+
+ ▄▄▄       ███▄    █  ██▓ ███▄ ▄███▓  ██████ 
+▒████▄     ██ ▀█   █ ▓██▒▓██▒▀█▀ ██▒▒██    ▒ 
+▒██  ▀█▄  ▓██  ▀█ ██▒▒██▒▓██    ▓██░░ ▓██▄   
+░██▄▄▄▄██ ▓██▒  ▐▌██▒░██░▒██    ▒██   ▒   ██▒
+ ▓█   ▓██▒▒██░   ▓██░░██░▒██▒   ░██▒▒██████▒▒
+ ▒▒   ▓▒█░░ ▒░   ▒ ▒ ░▓  ░ ▒░   ░  ░▒ ▒▓▒ ▒ ░
+  ▒   ▒▒ ░░ ░░   ░ ▒░ ▒ ░░  ░      ░░ ░▒  ░ ░
+  ░   ▒      ░   ░ ░  ▒ ░░      ░   ░  ░  ░  
+      ░  ░         ░  ░         ░         ░  
+
+*/
 @keyframes fadeIn {
   0% {
     opacity: 0;
