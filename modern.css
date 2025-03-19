@@ -11,7 +11,6 @@ margin: 0;
 display: flex;
 justify-content: center;
 align-items: center;
-}
 
 /*
 
@@ -29,18 +28,36 @@ align-items: center;
 */
 
 
-
-.logo-container {
+.corsadia 
+ {
   position: fixed;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
   z-index: 1000;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: none;
   padding: 10px;
   background-size: contain;
-
+  width: 100%;
+  height: 20%;
+  background-size: contain;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  
 }
+
+.corsadia::before {
+  content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+    z-index: -1; /* Ensure the overlay is behind the content */
+}
+
 
 .content {
 
@@ -48,6 +65,12 @@ margin-top: 100px;
 text-align: center;
 
 }
+
+@font-face {
+  font-family: 'Oxygene';
+  
+}
+
 
 button {
 
@@ -61,6 +84,7 @@ font-size: 16px;
 margin: 4px 2px;
 
 }
+
 
 
 /*
@@ -142,9 +166,9 @@ input[type="range"] {
   -webkit-appearance: none;
   appearance: none; /* removes the default webkit styles */
   width: 20px;
-  height: 200px;
+  height: 20px;
   background: url('https://raw.githubusercontent.com/daidarkcel/dmc/refs/heads/main/modern%20images/SPINALCORD.png') no-repeat center center;
-  background-size: cover; /* Scale the background image to cover the entire slider track */
+  background-size: contain; /* Scale the background image to cover the entire slider track */
   outline: none;
   opacity: 1;
   -webkit-transition: .2s;
@@ -166,6 +190,7 @@ input[type="range"]::-moz-range-track {
   background-size: cover; /* Scale the background image to cover the entire slider track */
   border-radius: 5px;
   
+  
 }
 
 input[type="range"]::-webkit-slider-thumb {
@@ -178,7 +203,7 @@ input[type="range"]::-webkit-slider-thumb {
   cursor: pointer;
   border-radius: 50%;
   margin-top: -10px
-  
+
 }
 
 input[type="range"]::-moz-range-thumb {
@@ -188,6 +213,7 @@ input[type="range"]::-moz-range-thumb {
   background-size: contain; /* Ensure the entire bone image is visible */
   cursor: pointer;
   border-radius: 50%;
+  
   
 }
 
@@ -298,8 +324,47 @@ input[type="range"]::-moz-range-thumb {
 
 }
 
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  background-color: transparent;
+  padding: 10px 32px;
+}
 
+.spotifybutton {
+  background-color: transparent;
+  padding: 10px 32px;
+  color: white;
+  text-decoration: none;
+}
 
+.scbutton {
+  background-color: transparent;
+  padding: 10px 32px;
+  color: white;
+  text-decoration: none;
+}
+
+.tumblrbutton {
+  background-color: transparent;
+  padding: 10px 3px;
+  color: white;
+  text-decoration: none;
+}
+
+.igbutton {
+  background-color: transparent;
+  padding: 10px 32px;
+  color: white;
+  text-decoration: none;
+}
+
+.bio {
+  font-family: 'Oxygene', sans-serif;
+  font-size: 20px;
+}
 
 /* 
 
@@ -384,4 +449,5 @@ footer {
   100% {
     opacity: 0.75;
   }
+}
 }
