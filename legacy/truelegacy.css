@@ -1,11 +1,12 @@
 body {background-color: black;
      text-align: center;}
-h1 {color: black; 
+
+h1 {color: white; 
 font-family: Dear Mr Pazuzu; 
 font-size: 80px;
    text-align: center;}
-p {color: black;
-font-family: Helvetica;
+p {color: white;
+font-family: 'Source', sans-serif;
 font-size: 20px;
   text-align: center;}
 a {color: lightgoldenrodyellow;}
@@ -14,3 +15,9 @@ button{background-color: black;
 text-align: center;
 font-family: Helvetica;
 font-size: 10px;}
+
+.legacy-navigation {
+
+position: relative;
+top: 0; }
+
