@@ -38,3 +38,19 @@ march 21st 2025
 
 - created 2 new icons for PROFILE and CREDIT buttons on the main page
 - added 3 placeholders for MOJA, mainframe, debugging log, an updated SOTD, and suggestion, and a mini email client
+
+
+
+v0.6.5
+
+- added logos to main page, "PROFILE and CREDS" everything soon to be updated after v1 
+- seperated all css purposes into its own files. some pages will have its own css for ease for access
+    - darknest = modern.css
+    - credits = modern/credits.css
+    - shop = modern.css
+    - wip = modern.css
+    - moja - moja.css
+    - index = entry.css
+    - profile = modern/profile.css
+- added a version number to the bottom right of every single page. that number gets updated by a panel in MOJA. last updated: 03/21/25
+

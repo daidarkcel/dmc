@@ -31,20 +31,15 @@ body::before {
 
 /*
 
- ███▄ ▄███▓ ▄▄▄       ██▓ ███▄    █ 
-▓██▒▀█▀ ██▒▒████▄    ▓██▒ ██ ▀█   █ 
-▓██    ▓██░▒██  ▀█▄  ▒██▒▓██  ▀█ ██▒
-▒██    ▒██ ░██▄▄▄▄██ ░██░▓██▒  ▐▌██▒
-▒██▒   ░██▒ ▓█   ▓██▒░██░▒██░   ▓██░
-░ ▒░   ░  ░ ▒▒   ▓▒█░░▓  ░ ▒░   ▒ ▒ 
-░  ░      ░  ▒   ▒▒ ░ ▒ ░░ ░░   ░ ▒░
-░      ░     ░   ▒    ▒ ░   ░   ░ ░ 
-       ░         ░  ░ ░           ░ 
-                                    
+┳┳┓  ┏┓  ┳  ┳┓  ┏┓  ┏┓  ┏┓  ┏┓  ┏  ┏  ┳┓┏┓┳┓┓┏┓┳┓┏┓┏┓┏┳┓
+┃┃┃  ┣┫  ┃  ┃┃  ┃┃  ┣┫  ┃┓  ┣   ┃  ┃  ┃┃┣┫┣┫┃┫ ┃┃┣ ┗┓ ┃ 
+┛ ┗  ┛┗  ┻  ┛┗  ┣┛  ┛┗  ┗┛  ┗┛  ┛  ┛  ┻┛┛┗┛┗┛┗┛┛┗┗┛┗┛ ┻ 
+                                                        
+                                              
 
 */
 
-.corsadia-prototype1 {
+.corsadia-logo {
   position: relative;
   top: 0;
   left: 50%;
@@ -61,7 +56,7 @@ body::before {
   }
   
 
-.corsadia-prototype1::before {
+.corsadia-logo::before {
   content: "";
     position: absolute;
     top: 0;
@@ -89,51 +84,17 @@ font-family: 'Oxygene';
 
   text-align: center;
   justify-content: center;
-
+  margin-bottom: 50px;
 }
-
 
 
 /*
 
- ███▄    █  ▄▄▄    ██▒   █▓ ██▓  ▄████  ▄▄▄     ▄▄▄█████▓ ██▓ ▒█████   ███▄    █ 
- ██ ▀█   █ ▒████▄ ▓██░   █▒▓██▒ ██▒ ▀█▒▒████▄   ▓  ██▒ ▓▒▓██▒▒██▒  ██▒ ██ ▀█   █ 
-▓██  ▀█ ██▒▒██  ▀█▄▓██  █▒░▒██▒▒██░▄▄▄░▒██  ▀█▄ ▒ ▓██░ ▒░▒██▒▒██░  ██▒▓██  ▀█ ██▒
-▓██▒  ▐▌██▒░██▄▄▄▄██▒██ █░░░██░░▓█  ██▓░██▄▄▄▄██░ ▓██▓ ░ ░██░▒██   ██░▓██▒  ▐▌██▒
-▒██░   ▓██░ ▓█   ▓██▒▒▀█░  ░██░░▒▓███▀▒ ▓█   ▓██▒ ▒██▒ ░ ░██░░ ████▓▒░▒██░   ▓██░
-░ ▒░   ▒ ▒  ▒▒   ▓▒█░░ ▐░  ░▓   ░▒   ▒  ▒▒   ▓▒█░ ▒ ░░   ░▓  ░ ▒░▒░▒░ ░ ▒░   ▒ ▒ 
-░ ░░   ░ ▒░  ▒   ▒▒ ░░ ░░   ▒ ░  ░   ░   ▒   ▒▒ ░   ░     ▒ ░  ░ ▒ ▒░ ░ ░░   ░ ▒░
-   ░   ░ ░   ░   ▒     ░░   ▒ ░░ ░   ░   ░   ▒    ░       ▒ ░░ ░ ░ ▒     ░   ░ ░ 
-         ░       ░  ░   ░   ░        ░       ░  ░         ░      ░ ░           ░ 
-                       ░                                                         
-
+┏┓┳┓┏┓┳┓┳┏┳┓┏┓
+┃ ┣┫┣ ┃┃┃ ┃ ┗┓
+┗┛┛┗┗┛┻┛┻ ┻ ┗┛
+                                                                 
 */
-.legacy {
-  background-color: darkolivegreen;
-  padding: 10px 32px;
-  text-decoration: none;
-}
-
-.legacy a {
-  color: white;
-  text-decoration: none;
-    
-}
-
-.brightness
-{
-  position: absolute;
-  top: 20px;
-  left: 30px;
-  width:200px;
-  height:100%;
-  z-index: 1;
-  background-color: rgba(0, 0, 0, 0.5);
-  font-size: 50px;
-  justify-content: center;
-  align-items: center;
-  
-}
 
 .navigation button {
   justify-content: center;
@@ -142,243 +103,82 @@ font-family: 'Oxygene';
   border: none;
   text-decoration: none;
   color: white;
-  padding:;
+
 } 
 
-.navigation button a {
-  font-size: 30px;
-  color: white; 
+.boneshop {
+  margin: 0 auto;
 }
-
 
 .profile {
-  background-color: grey;
-  padding: 10px 10px;
-  margin: auto
+  margin: 0 auto;
 } 
 
-.profile a {
-  text-decoration: none;
-  color: black; 
-}
-
-/*
-
-
-▄████▄   ██▀███  ▓█████ ▓█████▄  ██▓▄▄▄█████▓  ██████ 
-▒██▀ ▀█  ▓██ ▒ ██▒▓█   ▀ ▒██▀ ██▌▓██▒▓  ██▒ ▓▒▒██    ▒ 
-▒▓█    ▄ ▓██ ░▄█ ▒▒███   ░██   █▌▒██▒▒ ▓██░ ▒░░ ▓██▄   
-▒▓▓▄ ▄██▒▒██▀▀█▄  ▒▓█  ▄ ░▓█▄   ▌░██░░ ▓██▓ ░   ▒   ██▒
-▒ ▓███▀ ░░██▓ ▒██▒░▒████▒░▒████▓ ░██░  ▒██▒ ░ ▒██████▒▒
-░ ░▒ ▒  ░░ ▒▓ ░▒▓░░░ ▒░ ░ ▒▒▓  ▒ ░▓    ▒ ░░   ▒ ▒▓▒ ▒ ░
-  ░  ▒     ░▒ ░ ▒░ ░ ░  ░ ░ ▒  ▒  ▒ ░    ░    ░ ░▒  ░ ░
-░          ░░   ░    ░    ░ ░  ░  ▒ ░  ░      ░  ░  ░  
-░ ░         ░        ░  ░   ░     ░                 ░  
-░                         ░                              
-
-
-*/
-.credits button {
-  background-color: black;
-  padding: 12px 2px;
-  text-decoration: none;
-  color: white;
-  
-
-
+.creds {
+  margin: 0 auto;
 }
 
 
 /*  
 
- ██▓███   ██▀███   ▒█████    █████▒██▓ ██▓    ▓█████ 
-▓██░  ██▒▓██ ▒ ██▒▒██▒  ██▒▓██   ▒▓██▒▓██▒    ▓█   ▀ 
-▓██░ ██▓▒▓██ ░▄█ ▒▒██░  ██▒▒████ ░▒██▒▒██░    ▒███   
-▒██▄█▓▒ ▒▒██▀▀█▄  ▒██   ██░░▓█▒  ░░██░▒██░    ▒▓█  ▄ 
-▒██▒ ░  ░░██▓ ▒██▒░ ████▓▒░░▒█░   ░██░░██████▒░▒████▒
-▒▓▒░ ░  ░░ ▒▓ ░▒▓░░ ▒░▒░▒░  ▒ ░   ░▓  ░ ▒░▓  ░░░ ▒░ ░
-░▒ ░       ░▒ ░ ▒░  ░ ▒ ▒░  ░      ▒ ░░ ░ ▒  ░ ░ ░  ░
-░░         ░░   ░ ░ ░ ░ ▒   ░ ░    ▒ ░  ░ ░      ░   
-            ░         ░ ░          ░      ░  ░   ░  ░
-                                                     
+
+┏┓ ┳┓ ┏┓ ┏┓ ┳ ┓  ┏┓
+┃┃ ┣┫ ┃┃ ┣  ┃ ┃  ┣ 
+┣┛ ┛┗ ┗┛ ┻  ┻ ┗┛ ┗┛
+
 
 */
 
-.korsadia {
-  transform: translateX(-50%);
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 20px;
-  box-sizing: border-box;
-  margin-left: 50%;
-  border: white 5px solid;
-
-}
-
-.korsadia-pfp
-{
- 
-  width: 300px;
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 20px;
-  
- 
-}
-
-.korsadia-pfp img {
-  display: flex; 
-  border: white;
-  background-size: contain
-}
-
-.korsadia-bio h1 {
-  font-family: 'Oxygene';
-  font-size: 50px;
-  color: white;
-  text-align: center;
-  padding: 0px;
-  margin: -15px;
-
-}
-
-
-.social-media
-{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 10px;
-  margin: 10px;
-}
-
-.spotifybutton {
-  
-  background-color: transparent;
-  padding: 10px 3px;
-  color: white;
-  text-decoration: none;
-  justify-content: center;
-  align-items: center; 
-
-}
-.spotifybutton img {
-  width: 20px;
-  height: 20px; 
-}
-
-
-
-.scbutton {
-  background-color: transparent;
-  padding: 10px 3px;
-  color: white;
-  text-decoration: none;
-}
-
-.scbutton img {
-
-  width: 20px;
-  height: 20px;
-
-}
-
-.tumblrbutton {
-  background-color: transparent;
-  padding: 10px 3px;
-  color: white;
-  text-decoration: none;
-}
-
-.tumblrbutton img {
-  width: 10px;
-  height: 20px;
-}
-
-
-.igbutton {
-  background-color: transparent;
-  padding: 10px 3px;
-  color: white;
-  text-decoration: none;
-  background-size: contain;
-  
-}
-
-.igbutton img {
-  width: 20px;
-  height: 20px;
-
-}
-
-.audioplayer {
-  overflow: hidden; 
-  opacity: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 10px;
-  margin: 10px;
- 
-}
-
 
 footer {
-  size: 10px;
-  position: fixed;
-  left: 0;
+  position: absolute;
   bottom: 0;
+  left: 0;
   width: 100%;
   color: white;
   text-align: center;
-  opacity: 0.75;
-  animation: fadeIn 1s;
+  opacity: 0.65;
+  animation: fadeIn 2s;
+  font-family: 'Oxygene';
 
 }
 
-footer p {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: white;
-  text-align: center;
-  opacity: 0.75;
-  animation: fadeIn 1s;
-  font-family: "Oxygene 1"
+.version {
+opacity: 0.4;
+animation: fadeIn 2s
 }
 
+.copyright {
+  opacity: 0.75;
+  animation: fadeIn 3s
+}
 
 
 /* 
 
- ▄▄▄       ███▄    █  ██▓ ███▄ ▄███▓  ██████ 
-▒████▄     ██ ▀█   █ ▓██▒▓██▒▀█▀ ██▒▒██    ▒ 
-▒██  ▀█▄  ▓██  ▀█ ██▒▒██▒▓██    ▓██░░ ▓██▄   
-░██▄▄▄▄██ ▓██▒  ▐▌██▒░██░▒██    ▒██   ▒   ██▒
- ▓█   ▓██▒▒██░   ▓██░░██░▒██▒   ░██▒▒██████▒▒
- ▒▒   ▓▒█░░ ▒░   ▒ ▒ ░▓  ░ ▒░   ░  ░▒ ▒▓▒ ▒ ░
-  ▒   ▒▒ ░░ ░░   ░ ▒░ ▒ ░░  ░      ░░ ░▒  ░ ░
-  ░   ▒      ░   ░ ░  ▒ ░░      ░   ░  ░  ░  
-      ░  ░         ░  ░         ░         ░  
-
+┏┓  ┳┓  ┳  ┳┳┓  ┏┓
+┣┫  ┃┃  ┃  ┃┃┃  ┗┓
+┛┗  ┛┗  ┻  ┛ ┗  ┗┛
+                  
 */
+
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
   }
   100% {
-    opacity: 0.75;
+    opacity: 0.65;
   }
 }
 
+@keyframes fadeOut {
+
+  0% {
+    opacity: 0.65;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,145 @@
+/*
+
+┏┓ ┳┓ ┏┓ ┏┓ ┳ ┓  ┏┓
+┃┃ ┣┫ ┃┃ ┣  ┃ ┃  ┣ 
+┣┛ ┛┗ ┗┛ ┻  ┻ ┗┛ ┗┛
+             
+
+*/
+
+
+
+.korsadia {
+    transform: translateX(-50%);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: 50%;
+    border: white 5px solid;
+  
+  }
+  
+  .korsadia-pfp
+  {
+   
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    
+   
+  }
+  
+  .korsadia-pfp img {
+    display: flex; 
+    border: white;
+    background-size: contain
+  }
+  
+  .korsadia-bio h1 {
+    font-family: 'Oxygene';
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding: 0px;
+    margin: -15px;
+  
+  }
+  
+  
+  .social-media
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+  }
+  
+  .spotifybutton {
+    
+    background-color: transparent;
+    padding: 10px 3px;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center; 
+    border: none;
+  
+  }
+  .spotifybutton img {
+    width: 20px;
+    height: 20px; 
+    border: none;
+  }
+  
+  
+  .scbutton {
+    background-color: transparent;
+    padding: 10px 3px;
+    color: white;
+    text-decoration: none;
+    border: none;
+    
+  }
+  
+  .scbutton img {
+  
+    width: 20px;
+    height: 20px;
+    
+  
+  }
+  
+  .tumblrbutton {
+    background-color: transparent;
+    padding: 10px 3px;
+    color: white;
+    text-decoration: none;
+    border: none;
+  }
+  
+  .tumblrbutton img {
+    width: 10px;
+    height: 20px;
+  }
+  
+  
+  .igbutton {
+    background-color: transparent;
+    padding: 10px 3px;
+    color: white;
+    text-decoration: none;
+    background-size: contain;
+    border: none;
+    
+  }
+  
+  .igbutton img {
+    width: 20px;
+    height: 20px;
+  
+  }
+  
+  .audioplayer {
+    overflow: hidden; 
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+   
+  }
