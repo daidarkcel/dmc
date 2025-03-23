@@ -17,6 +17,17 @@ align-items: center;
 
 }
 
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: -1;
+  
+}
 
 /*
 
@@ -62,26 +73,26 @@ align-items: center;
 }
 
 
-.content {
+.wip-content {
 
-margin-top: 100px;
+transform: translateY(200px);
 text-align: center;
+justify-content: center;
+align-items: center;
+font-size: 60px;
+font-family: 'Oxygene';
+
+
+}
+
+.adminform {
+
+  text-align: center;
+  justify-content: center;
 
 }
 
 
-button {
-
-background-color: white;
-text-align: center;
-border: none; 
-padding: 10px 32px;
-text-decoration: wavy;
-display: inline-block;
-font-size: 16px;
-margin: 4px 2px;
-
-}
 
 /*
 
@@ -122,6 +133,33 @@ margin: 4px 2px;
   justify-content: center;
   align-items: center;
   
+}
+
+.navigation button {
+  justify-content: center;
+  display: flex;
+  background-color: transparent; 
+  border: none;
+  text-decoration: none;
+  color: white;
+  padding:;
+} 
+
+.navigation button a {
+  font-size: 30px;
+  color: white; 
+}
+
+
+.profile {
+  background-color: grey;
+  padding: 10px 10px;
+  margin: auto
+} 
+
+.profile a {
+  text-decoration: none;
+  color: black; 
 }
 
 /*
@@ -295,55 +333,6 @@ margin: 4px 2px;
 }
 
 
-/* 
-
-  ██████  ██░ ██  ▒█████   ██▓███  
-▒██    ▒ ▓██░ ██▒▒██▒  ██▒▓██░  ██▒
-░ ▓██▄   ▒██▀▀██░▒██░  ██▒▓██░ ██▓▒
-  ▒   ██▒░▓█ ░██ ▒██   ██░▒██▄█▓▒ ▒
-▒██████▒▒░▓█▒░██▓░ ████▓▒░▒██▒ ░  ░
-▒ ▒▓▒ ▒ ░ ▒ ░░▒░▒░ ▒░▒░▒░ ▒▓▒░ ░  ░
-░ ░▒  ░ ░ ▒ ░▒░ ░  ░ ▒ ▒░ ░▒ ░     
-░  ░  ░   ░  ░░ ░░ ░ ░ ▒  ░░       
-      ░   ░  ░  ░    ░ ░           
-                               
-*/
-
-.shop a {
-  color: white;
-  text-decoration: none;
-}
-
-.shop
-{
-  background-color: transparent;
-  padding: 10px 32px;
-  text-decoration: none;
-  
-}
-
-.depop {
-  background-color: darkred;     
-  padding: 10px 32px;
-  }
-  
-  .depop a {
-    text-decoration: none;
-    color: black;
-  
-  }
-  .mercari {
-  background-color: #5558da;
-  padding: 10px 32px;
-  color: white;
-  }
-  
-  .mercari a {
-    text-decoration: none;
-    color: white;
-  }   
-
-
 footer {
   size: 10px;
   position: fixed;
@@ -354,6 +343,19 @@ footer {
   text-align: center;
   opacity: 0.75;
   animation: fadeIn 1s;
+
+}
+
+footer p {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  opacity: 0.75;
+  animation: fadeIn 1s;
+  font-family: "Oxygene 1"
 }
 
 

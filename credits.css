@@ -26,38 +26,69 @@ body {
     }
 
     .credits-corsadia {
-        position: relative;
+         position: relative;
          align-items: center;
          justify-content: center;
          display: flex;
        }
 
-.credits-container {
+.credits-container h1 {
     position: relative;
     top: 0;
-    z-index: 1; 
+    z-index: 1;
+    font-family: "Oxygene 1"; 
 }
 
 .credits-legacy
 {
     position: relative;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 1000;
-    padding: 10px;
+    
+  
+    
     background-size: contain;
-    width: 100%;
-    height: 10%;
     align-items: center;
     justify-content: center;
     display: flex;
     background-color: black;
+    font-family: "Dear Mr Pazuzu";
+    border: white 1px solid;
+    border-radius: 10%;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 6px 10px;
 }
 
 .credits-legacy a {
     text-decoration: none;
     color: white;
-    padding: -1px;
+    padding: 1px;
     font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    
 }
+
+footer {
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    opacity: 0.75;
+    animation: fadeIn 1s;
+    
+  }
+  
+  footer p {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    opacity: 0.75;
+    animation: fadeIn 1s;
+    font-family: "Oxygene 1"
+  }

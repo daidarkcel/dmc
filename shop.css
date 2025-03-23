@@ -1,0 +1,75 @@
+.misetani-box {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
+.misetani-greetings p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    border: 1px;
+
+}
+
+
+
+
+.shop-buttons {
+    background-color: transparent;
+    display: flex;
+
+
+}
+
+.shop-buttons button { 
+
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    text-decoration: none;
+    border: none;
+
+}
+    
+
+.shop a {
+    color: white;
+    text-decoration: none;
+  }
+  
+
+  .shop
+  {
+    background-color: transparent;
+    padding: 10px 32px;
+    text-decoration: none;
+    
+  }
+    
+
+  .shop-external img {             
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: -1;
+    
+}
