@@ -16,10 +16,16 @@
 @font-face {
     font-family: 'Oxygene';
     src: url('fonts/oxygene1.ttf') format('truetype');
+}
+@font-face {
     font-family: 'Stardew';
     src: url('fonts/stardew.ttf') format('truetype');
+}
+@font-face {        
     font-family: 'Emojis';
     src: url('emoji.ttf') format('truetype');
+}
+@font-face  {   
     font-family: 'Ipixelu';
     src: url('fonts/i-pixel-u.ttf') format('truetype');
   }
@@ -63,14 +69,12 @@ body {
     top: 0;
     z-index: 1;
     font-family: "Oxygene 1"; 
+   margin: 20px;
 }
 
 .credits-legacy
 {
     position: relative;
-    
-  
-    
     background-size: contain;
     align-items: center;
     justify-content: center;
@@ -93,6 +97,31 @@ body {
     justify-content: center;
     
 }
+
+.creds-description{
+
+
+
+
+    
+}
+
+
+#send-me h2 {
+    font-family:'Stardew';
+    margin: 10px;
+    font-size: 24px;
+}
+
+#send-me h3 {
+    font-family: "Ipixelu";
+    font-size: 16px;
+    opacity: 0.5;
+    margin: 10px;
+
+}
+
+
 
 footer {
 
