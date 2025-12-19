@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Oxygene';
+    src: url('fonts/oxygene1.ttf') format('truetype');
+  }
+  
+@font-face {
+    font-family: 'Stardew';
+    src: url('fonts/stardew.ttf') format('truetype');
+  }
+@font-face {        
+    font-family: 'Emojis';
+    src: url('emoji.ttf') format('truetype');
+  }
+@font-face  {   
+    font-family: 'Ipixelu';
+    src: url('fonts/i-pixel-u.ttf') format('truetype');
+  }
+  
+@font-face {
+    font-family:'Disco';
+    src: url('fonts/digitaldisco.ttf') format('truetype'); 
+  }
+  
+@font-face {
+    font-family:'Digitalism';
+    src: url('fonts/digitalism.ttf') format('truetype');   
+  }
+  
+@font-face {
+    font-family: 'Silkscreen';
+    src: url('fonts/silkscreen.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Thorned';
+    src: url('fonts/thorned.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Komika';
+    src: url('fonts/komika.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Sile';
+  src: url('fonts/Sile.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Ellis';
+  src: url('fonts/ellis.ttf') format('truetype');
+}

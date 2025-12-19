@@ -1,0 +1,195 @@
+body {
+    position: relative;
+    background-image: url('modern images/dhdteam.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body::before {
+
+    content: '';
+    position: fixed;
+    background-size: 200%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: -1;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+.corsadia-logo {
+
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+
+}
+
+.portfolio-header 
+{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#volume-selector {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 3em;
+    background-color: transparent;
+    gap: 50px;
+    
+
+}
+
+#volume-selector a, button {
+
+    text-decoration: none;
+    font-size: 50px;
+    font-family: 'Disco';
+    color: white;
+    border: none;
+    background-color: transparent;
+    padding: 20px 35px;
+    
+}
+
+
+#volume-chamber {  
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    width: 80%;
+    height: 100%;
+    
+
+}
+
+#volume1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 2em 2em;
+    overflow: hidden;
+    padding: 10rem;
+    
+    
+}
+
+#volume1 > * {
+    border: 2px solid #fff;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    
+    
+
+}
+
+.inquiry 
+  {
+    display: flex;
+    justify-content: center;
+    user-select: none;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .inquiry-text {
+    font-size: 1.5em;
+    font-family: 'Disco';
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+h2 {
+    font-size: 2em;
+    font-family: 'Dear Mr Pazuzu';
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+
+  .OO1:hover {
+    background-image: url('modern images/WIP.png');
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+    animation: porthover 0.8s 1 forwards;
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+fonts
+
+*/
+
+
+
+@font-face {
+    font-family: 'Oxygene';
+    src: url('fonts/oxygene1.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Stardew';
+    src: url('fonts/stardew.ttf') format('truetype');
+  }
+  @font-face {        
+    font-family: 'Emojis';
+    src: url('emoji.ttf') format('truetype');
+  }
+  @font-face  {   
+    font-family: 'Ipixelu';
+    src: url('fonts/i-pixel-u.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family:'Disco';
+    src: url('fonts/digitaldisco.ttf') format('truetype'); 
+  }
+  
+  @font-face {
+    font-family:'Digitalism';
+    src: url('fonts/digitalism.ttf') format('truetype');   
+  }
+
+  @font-face {
+    font-family: 'Thorned';
+    src: url('fonts/thorned.otf') format('opentype');
+  }

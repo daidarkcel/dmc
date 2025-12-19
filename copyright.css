@@ -1,0 +1,33 @@
+
+footer 
+
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%; /* so its 100% of the screen width */
+    color: white;
+    text-align: center;
+    font-family: 'Disco'; 
+    
+}
+
+.korsadia-copyright a 
+
+{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Disco'; 
+}
+.version 
+
+{
+    font-family:'Disco';
+    font-size: 20px;
+}
+
+#copyright 
+
+{
+  animation: wiggle 2s infinite linear;
+}

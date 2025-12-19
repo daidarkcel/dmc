@@ -29,31 +29,40 @@
     font-family: 'Ipixelu';
     src: url('fonts/i-pixel-u.ttf') format('truetype');
   }
-
+@font-face {
+    font-family:'Disco' ;
+    src: url('fonts/digitaldisco.ttf');
+    
+}
+@font-face {
+    font-family: 'Silkscreen';
+    src: url('fonts/silkscreen.ttf') format('truetype');
+}
 body {  
 
+    position: relative;
     background-image: url("https://wallpaperaccess.com/full/9246833.jpg");
-    background-size: cover;
-    background-repeat: repeat;
+    background-size: 170%;
+    background-repeat: no-repeat;
     background-color: black;
     color: white;
     height: 100vh;
     margin: 0;
     justify-content: center;
     align-items: center;
-    
-    }
+    scroll-behavior: smooth;
+}
     
 
     body::before {
-        content: "";
+        content: '';
         position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
+        width: 100vw;
+        height: 100vh;
+        background-size: 200%;
         background-color: rgba(0, 0, 0, 0.7);
         z-index: -1;
+        
         
     }
 
@@ -64,85 +73,196 @@ body {
          display: flex;
        }
 
+
+
 .credits-container h1 {
-    position: relative;
     top: 0;
-    z-index: 1;
-    font-family: "Oxygene 1"; 
-   margin: 20px;
+    z-index: 2;
+    font-family: "Stardew"; 
+    margin-left: 30px;
 }
 
-.credits-legacy
-{
-    position: relative;
-    background-size: contain;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    background-color: black;
-    font-family: "Dear Mr Pazuzu";
-    border: white 1px solid;
-    border-radius: 10%;
-    box-sizing: border-box;
-    margin: 10px;
-    padding: 6px 10px;
+
+.totheblog button {
+
+display: flex;
+position: absolute;
+margin-left: 20px;
+margin-top: 20px;
+width: 200px;
+height: 50px;
+padding: 20px;
+border-radius: 10px;
+background-color: black;
+border-image: linear-gradient(to right, #FF6961, #d7ffc2, #B3EBF2) 1;
+border-image-slice: 1;
+
 }
 
-.credits-legacy a {
-    text-decoration: none;
+
+#blog  {
+ 
     color: white;
-    padding: 1px;
-    font-size: 20px;
-    align-items: center;
+    font-family: 'Stardew';
+    font-size: 30px;
     justify-content: center;
-    
-}
-
-.creds-description{
-
-
-
+    align-items: center;
 
     
 }
 
 
-#send-me h2 {
-    font-family:'Stardew';
+.creds-description 
+{
+
+font-family: 'Silkscreen';
+margin-left: 20px;
+font-size: 17px;
+
+}
+
+.creds-description a 
+{
+    color: maroon;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.creds-description img 
+{
+    color: grey;
+    font-size: 20px;
+}
+
+
+.sendemails 
+{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+   
+}
+
+
+#send-me h2 
+{
+    font-family: 'Stardew';
     margin: 10px;
-    font-size: 24px;
+    font-size: 25px;
 }
 
-#send-me h3 {
-    font-family: "Ipixelu";
-    font-size: 16px;
+#send-me h3 
+{
+    font-family: "Stardew";
+    font-size: 20px;
     opacity: 0.5;
     margin: 10px;
-
 }
 
 
 
-footer {
-
-    position: absolute;
+footer 
+{
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     color: white;
     text-align: center;
-    opacity: 0.4;
-    animation: fadeIn 1s;
-    font-family: 'Oxygene';
+    animation: fadeIn 2s;
+    font-family: 'Disco';
+    opacity: 0.65;
 
   }
   
-  .version {
-    opacity: 0.4;
-    animation: fadeIn 2s
-    }
+
+
     
-    .copyright {
-      opacity: 0.75;
-      animation: fadeIn 3s
-    }
+textarea 
+
+{
+    background-color: black;
+    scroll-behavior: none;
+    width: 500px;
+    height: 150px;
+    margin-left: 20px;
+    resize: none;
+    color: white;
+    outline: none;
+    font-family: 'Stardew';
+    border-radius: 10px;
+    font-size: 20px;
+    text-decoration-color: white;
+}
+    
+
+textarea:focus {
+
+    border-color: maroon;
+    box-shadow: 0 0 5px rgb(207, 36, 122);
+}
+
+textarea:hover {
+
+    border-color: maroon;
+    box-shadow: 0 0 10px rgb(207, 36, 122);
+
+}
+
+
+input[type="email"]
+
+{
+
+    max-width:30ch;
+    padding: 10px;
+    margin-left: 20px;
+    width: 400px;
+    height: 35px;
+    font-size: 20px;
+    outline: grey;
+    border: grey;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    transition: border-color 0.3s ease;
+    font-family: 'Stardew';
+}
+
+input[type="email"]:hover
+{
+    border-color: maroon;
+    box-shadow: 0 0 10px rgb(207, 36, 122);
+    
+}
+
+input[type="email"]:focus {
+
+       
+    border-color: maroon;
+    box-shadow: 0 0 5px rgb(207, 36, 122);
+
+}
+
+
+input[type="submit"]
+
+{
+
+ border-radius: 10px;
+ width: 100px;
+ height: 50px;
+ margin-left: 20px;
+ margin-top: 20px;
+ color: white;
+ background-color: black;
+ font-size: 25px;
+ align-items: center;
+ font-family: "Stardew";
+ border: 2px white solid;
+
+}
+
+
+
+

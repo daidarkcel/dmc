@@ -1,0 +1,305 @@
+
+    future things for this site specifically
+    - jukebox that plays unreleased soundcloud(hidden behind easter egg) corny ik but it's a part of me.
+    
+    - it'll be especially drawn in my notebook and be noted on the PORTFOLIO page
+
+    - v2 will have the portfolio page and the beginning of webhooking to discord and other platforms (via tumblr)
+    we will get to this part around the beginning of may.
+    v2 will come with +10 cursors, 2 of them hidden behind easter eggs on the website :P
+
+
+THE FUTURE
+
+- develop 3 different kinds of applications.
+learn PYTHON and JAVA
+create 
+
+- soundcloud artist music downloader (can download profiles, can download playlists)
+- the reason i want to create this app is because of the prevalance of alot of problematic artists in the community
+when an artist makes good music but has bad deeds, it makes me feel bad that i enjoyed the music of such an individual
+therefore, i'd like to completely negate kind of money or monetization i'd give thart artist via downloading their music.
+alot of soundcloud downloaders like this exist already, however i am planning on making mine special and unique by creating skins and have it more
+community oriented rather than just archive-oriented.
+
+<SCRAPPED> apr.12.2025
+<SCRAPPED>
+- a bone designed jukebox app/skin for a music player that loads in songs from different platforms. it will use the platforms apis and won't directly use files unless commanded by the user.
+it will have those 2 functions accessible. it's not really something crazy i want to develop. i just want to branch out my skills lol. make different cute shit. could probably do it braindead easy. 
+<SCRAPPED>
+<SCRAPPED> apr.12.2025
+
+- an idea surrounding the fact that users have to download multiple different applications to do several kinds of operations on the windows pc 
+so, let me create an application that acts as a 'toolbox' or 'kit' that can do multiple things in one by attaching ui elements together.
+it'll be super customizable and open-source, people can build upon it. the capabilities it should have are abilities to
+        convert files (mp3 to mp4, but you have to attach an image, webP to PNG, JPEG to SVG, ico to JPG, bat to .exe,)
+        autoclick (as an extension)
+        play music (local files)
+        read out system information
+        process system resource usage (like task manager)
+        customize its skins and be able to create its own skin via 1 coding language powered by the machine locally (can be shared and exported upon corsadia website's)
+
+have them downloadable from my website. (for nerds <3)   
+
+
+
+
+
+
+
+
+v0.5.1
+
+we're now in beta testing
+we'll be done here in less than a month. get ready for the final touches
+
+march 19th 2025 
+
+- begins the recording of website changes (versions, basically)
+- added a new font called 'Oxygene 1' for the bio section (CORSADIA)
+- added buttons styling for social media on profile page (profile.html)
+- categorized css elements and portions of the website
+- adjusted background and css font elements
+- added a placeholder for an audio player, made it invisible for now
+- added a new page, the 'profile' page, for my personal profile
+
+
+
+v.0.5.2
+march 20th 2025 (12-2AM)
+
+-  created and updated credits page, all cited credits still incomplete
+- seperated all CSS files instead of having multiple css page operations in 1 for more organization
+- touched up the legacy content, is now simplified.
+- added login forms to most pages, only accessible under admin panel.
+- forms added to legacy main page to prepare for blogging 
+- navigation reduced to 3 instead of 5 buttons (SONG RECOMMENDATIONS, FINAL PROJECT, BACK TO MODERN)
+- added release date to the WIP pages so users have something to think about
+- added some styling to legacy
+- created 2 new buttons on the shop, replaced them with cooler logos representing each site (depop and mercari) 
+- created admin panel page, named it MOJA
+- prepared functions in backend for the future
+- made an email submission form on the credits page 
+
+
+v0.6
+march 21st 2025
+
+
+- created 2 new icons for PROFILE and CREDIT buttons on the main page
+- added 3 placeholders for MOJA, mainframe, debugging log, an updated SOTD, and suggestion, and a mini email client
+
+
+
+v0.6.5
+
+- added logos to main page, "PROFILE and CREDS" everything soon to be updated after v1 
+- seperated all css purposes into its own files. some pages will have its own css for ease for access
+    - darknest = modern.css
+    - credits = modern/credits.css
+    - shop = modern.css
+    - wip = modern.css
+    - moja - moja.css
+    - index = entry.css
+    - profile = modern/profile.css
+- added a version number to the bottom right of every single page. that number gets updated by a panel in MOJA. last updated: 03/21/25
+
+
+
+v0.7
+03/29/25 - 03/30/25
+
+***you can see im not enjoying this. i pretend to enjoy it because i know its something im going to be doing for the rest of my life and it doesnt feel as good as everything else i do.
+ it's really a lack of motivation and a lack of caring about the craft that im trying to hone. 
+ it feels all performative. but its' really not. but isn't everything performative. i only really said this because it was 8 days since i last touched this website seriously. 
+ i need a geek bar. i dont. but damn. i wish i never hit one. i wouldn't want it every minute if i had never hit it. 
+ but why does it have to suck? if only geek bars were as healthy as apples.***
+
+    - admin panel page finally exists, seriously.
+    - WIP page touched up (release date is pushed to april 2nd)
+    - removed adminform, will be added back after v2 releases
+    - added gifs and specified tags for html elements in MOJA.CSS
+    - added navigation bar to admin page
+    - added ur mom
+
+v0.8
+03-31-25
+
+**i'll always find a way.**
+
+- added cute ascii art to moja.css
+- touched up the admin panel page, it's going to be touched after v1.0
+- centered a whole bunch of stuff
+- fonts have been spread across most of the css's
+
+
+v0.9
+    - credits page is finally finished, the email and textarea have simple styling that'll be seen when users want to
+    understand the credits and how to reach the owner of the website for suggestions if they don't have my other social media.
+
+APRIL 1ST - APRIL 2ND MIDNIGHT
+
+    - this marks the beginning of actually learning what html does. not that i don't know, 
+    but knowledge will be retained from this point onward by 
+    including what i learned at the end of every version change. they will all be marked with STARS in this text.
+
+    - starting now, version changes will involve a 3rd number (won't be vX.X anymore, since i am going
+    to be adding more complex things into this website, and will make small changes to understand what i learn as i progress.)
+    - version will now capture the last 50 lines to ensure everything is chronologically ordered.
+     
+    ⭐ to center a div, all we need is to make sure the body has a position, and a position of relative or absolute depending on the 
+    pages content. then you can apply either display: flex; or display: grid;, then for flex; you have to align it vertically via align-items: center;
+    and align it horizontally with justify-content: center;. you can also assign flex-direction: row; or column; so they are organized in the relevant manner.
+
+    ⭐ always ensure the body has a 100vh; so that it'll reflect on all screens (mobile, tablet, other browsers)
+
+    ⭐ @daidarkcel is a fabled legend of the past. i'm rlly not but its cool to dream so please.
+    
+    ⭐ to change font-sizes, always use font-size: []px or []em.
+
+    ⭐ @keyframes [identifer] is basically the easiest way to make up an animation and then assign it in the correlating element with animation: [identifier]
+    for example, @keyframes cumAnim (weird right) becomes
+    @keyframes cumAnim {
+        0% {
+            opacity: 0.2;
+        }
+        25% {
+            opacity: 0.5;
+        }
+        50%
+        {
+            opacity: 0.3;
+        }
+
+        75% {
+            opacity: 0.8
+        }
+        
+        100% {
+            opacity: 1;
+                }
+    }
+
+    and is then turn into
+
+    [whatever element] {
+
+        animation: cumAnim 2s;
+        <this assigns the animation that was created, you spawned the keyframes for that new animation. there are aways to speed up animations
+        with ease-in; and ease;
+
+    }
+
+
+
+
+
+v0.9.1
+
+APRIL 2ND, 2025 fuck april foos.
+
+
+- index.html is updated, with a cursor selection prompt screen appearing once the user clicks on the newly rotating bone animation done by urs truly <3
+    there are 3 cursors the user can choose from. they can also skip this process if they don't care and get sent straight to the darknest page. (or WIP depending on occasion)
+    cursors are the flesh axe of darkness, and the flesh axe of darkness 3. there are more cursors to come, and most of them will be based of dorohedoro/dai dark weapons or characters
+
+    - cursors will be called from a different linksheet (cursor.css) and will be provided for download via an easter egg page (if you're a nerd I LOVE NERDS)
+    - im stoned right now
+    - a gradient animation was added to one of the span ids in the footer. it is for those who use Dark Reader ( i am a dark reader user and honestly i want to finish the site
+    so i am leaving the dark reader problem for the future)
+    - the footer now has a disclaimer about dark reader users. i added a hyperlink to the extensions settings ( i checked online the extension id to make sure it's not a local id ) so anyone can go to it.
+    - added new glass styling, thanks alot internet, this is a p simple way of just having things look decent on someones first website
+    - blog is update with new inputs and myspace/tumblr type of feeling. animated swirly dorohedoro background (not rlly mine but credited in legacy) to make my things look more extensive.
+    - admin panel receives glass styling as well.
+    - basically the sSTLYINGtylingSTYLINg update. alot of styles are getting inputted and fixed with v1.0.0, so expect the site to look pretty good for a first website. expect glass panels, animations, special effects, and simple but clean, beginner navigation.
+
+    - shop panel finally has a proper WIP section. ( it will have actual clothes of mine there, just not right now. currently i linked my depop and mercari to help fund this new business)
+
+                ⭐  understand that this is a portfolio website. i want to showcase my skills to the world before i die miserably or happily however the world wants to recognize me.
+                        ⭐ understand that for this thing to get anywhere its' going to take some time and some perserverance. there will be days i dont feel like doing this shit at all and days where i will. the point is
+                            to take advantages of the days i can.
+
+    - finalization of the credits screen. it will be periodically updated.
+    - have a plan for an amount of updates per month.
+            ⚫ every month should have at least 2 published updates to the website.
+                every 2-3 months should have 2 major updates to the website.
+
+
+    - everythings pretty much ready for release.
+    - don't forget that all versions and minor versions after this will have 3 letters in them.
+    vX.X.X is the new format! lets go. 
+    -
+
+
+v0.9.2
+
+APRIL 6th 2025
+
+
+- 
+- added 2 new pages, portfolio.html and test.html
+
+test.html is for testing new things without publishing them yet. it'll be locked behind a password page. it can't be accessible to anyone but me. it'll be connected to admin via a <ahref> tag
+
+portfolio is for my portfolio, what im working on exactly at the moment. whatever is finished will be uploaded to the site. there are different volumes
+
+- added testpage.css for a custom look for the test page. 
+- modern.css was renamed to main.css for easier access and it makes better sense that way, it is the main part of the page
+
+
+as of right now there are 13 pages on this website.
+
+
+
+nothing will be published UNTIL everything in the modern/main version is setup. once thats done, legacy can remain a WIP.
+
+
+V0.9.3
+
+APRIL 8TH 2025
+
+- the navigation bar is now pushed towards a completely seperate css file as well. everything that will appear more than twice on this site will just have its styling derived from a seperate css, rather than clumping css into 1 file.v (nav.css)
+
+there will be only a few exceptions.
+
+navigation appears on every page except for the darknest page.
+
+cursor selection can be accessed on the bottom right corner of every site as well, you can reopen the window. by clicking the cursor icon.
+
+
+v0.9.3a
+(04/12)
+-  the idea for the soundcloud media creator is scrapped. since winamp is still a thing, taking its idea and revamping it wouldn't prove anything. it'll be cool to revive but the ideas not original and thats what i desire for this project.
+
+the new idea will come shortly, but other ideas are still pending as of now. the jukebox will still be drawn,
+but it will serve a different purpose on the website, as a custom media player for any audio i want to share/broadcast on the site.
+
+- however the idea will remain possible for an extension of my netkit (onettz) [based on earthbound]
+ which will be an application that serves as a host for many utilities alot of internet users use 
+ such as youtube-dl, soundcloud-dl, converting files to gifs,
+
+
+
+ +++ added an infinitely scrolling display below my profile to showcase the programming languages i currently know and possess. it also shows the one im learning for future internship possiblities. <SCRAPPED>
+ 
+ +++ created an entire portfolio page for the modern side, the legacy one will be added later (v2!!!)
+we're almost towards the mid april mark. theres alot this website has to go under before we make actual progress.
+ there are 2 volumes. when i run out of space there will simply be other volume. i also want to have volumes as a way to categorize what kind of ideas i want to push out on my future clothing ideas.
+
+
+ +++ in the end i kind of just wanna be that geek that knows how to make shoes. sometimes i feel like i dont wanna do it simply bc i dont wanna do it and have th emotivation maybe im lying to myself but honestly i think thats just mental issues that im going through right now. anyways, lets get this shit going bc im stoned and i do not want to melt in my own feelings about shi that dont rlly matter rn.
+ 
+4/18
+
+- made a seperate css for copyright and gave the copyright at the bottom an animation. when fading in. it'll be closer to the version logo as well.
+
+
+
+
+
+
+
+
+
+
+    

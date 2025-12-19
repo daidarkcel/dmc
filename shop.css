@@ -1,75 +1,164 @@
-.misetani-box {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    
-}
+/*
 
-.misetani-greetings p {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    display: flex;
-    margin: 0 auto;
-    align-items: center;
-    justify-content: center;
-    border: 1px;
+┏┓┓┏┏┓┏┓
+┗┓┣┫┃┃┃┃
+┗┛┛┗┗┛┣┛
+        
+
+*/
+
+.shop-logo {
+  position: absolute;
+  top: 0;
+  translate: -50%;
+margin-top: 20px;
 
 }
 
-
+.misetani {
+  z-index: -1;
+  position: absolute;
+  animation: misetaniIdle 1s infinite; 
+  opacity: 0.55;
+  user-select: none;
+}
 
 
 .shop-buttons {
+
     background-color: transparent;
     display: flex;
 
+}
+.depop {
+
+  background: transparent;
+  border-radius: 20px;
 
 }
 
+.mercari {
+
+  background: transparent;
+  border-radius: 20px;
+
+}
+
+.shop-buttons {
+
+  background-color: rgba(0, 0, 0, 0.50);
+  border-radius: 40px;
+  gap: 20px;
+  padding: 20px;
+
+}
 .shop-buttons button { 
 
     display: flex;
     margin: 0 auto;
     align-items: center;
     justify-content: center;
-    background-color: transparent;
     text-decoration: none;
     border: none;
+    top: 10;
 
 }
-    
+  
+.shop-logo img {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
 
-.shop a {
-    color: white;
-    text-decoration: none;
+
+
+.bonenav {
+  position: absolute;
+  display: flex;
+  padding: 10px;
+  margin-left: 10px;
+  border: 2px rgba(250, 250, 250, 0.1) solid;
+  height: fit-content;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
+  color: white;
+  backdrop-filter: blur(10px);
+  opacity: 0.6;
+  user-select: none;
+  left: 0;
+  justify-content: center;
+  border-image: linear-gradient(to right,#3d3d3d, #4d5263, #adadad, #505463, #3d3d3d);
+  border-image-slice: 1;
+  border-radius: 10px;
+  animation: nav-gradient 5s linear infinite;
+
+
+}
+  
+.bonenav:hover {
+  animation: bonefocus 0.5s 1 forwards;
+  user-select: all;
+
+}
+.bonenav:active {
+  user-select: all;
+  opacity: 1;
+  transform:scale(1.1);
+}
+
+nav {
+
+position: absolute;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center; 
+padding: 10px;
+border-radius: 20%;
+top: 35%;
+
+
+}
+
+nav button {
+  background-color: transparent;
+  border: none;
+
+}
+
+
+
+
+
+
+
+@keyframes bonefocus {
+  0% {
+    opacity:0.6;
+    transform:scale(1);
+  }
+  100% {
+    opacity: 1;
+    transform:scale(1.1);
+  }
+}
+
+
+@keyframes nav-gradient {
+  to  {
+       background-position: 200%;
+   }
   }
   
-
-  .shop
-  {
-    background-color: transparent;
-    padding: 10px 32px;
-    text-decoration: none;
-    
+@keyframes misetaniIdle {
+  0% {
+    margin-top: 10px;
   }
-    
-
-  .shop-external img {             
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
+ 50% {
+    margin-top: 20px;
   }
-
-  body::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    z-index: -1;
-    
+  100% {
+    margin-top: 10px;
+  }
 }

@@ -5,15 +5,148 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MOJA LAIR</title>
     <link rel = "stylesheet" type="text/css" href = "moja.css">
+    <link rel = "stylesheet" type="text/css" href = "cursor.css">
+    <link rel = "stylesheet" type="text/css" href = "copyright.css">
+    <link rel = "stylesheet" type="text/css" href = "fonts.css">
+    <link rel = "stylesheet" type="text/css" href = "anims.css">
+
 </head>
+
 <body>
-    <div class = "moja-panel">
+    <header>
+        <h1>THE MOJA</h1>
+    
+
+        <div class = "localtime">
+            <script src="localtime.js"></script>
+            <span id="local-time">MAY ??, 2025</span>
+        </div>
+
+        <div class = "page-changer">
+            <button class="page-changer-button" onclick="changePage()">
+                <a href="#page2">1</a>
+            </button>
+        </div>
+    
+    </header>
+   
+<main id = "page1">
 
 
+    <div id="moja-mainframe">
+
+    
+    <div class ="daidarkgifgrid">
+        <img src = "modern gifs/katastrophos.gif" width="100">
+        
+        <img src = "modern gifs/daidark2.gif" width="100">
+        <img src = "modern gifs/daidark.gif" width="100">
+        <img src = "modern gifs/bomdia.gif" width="100">
+        <img src = "modern gifs/shimadadeathgif1.gif" width="100">
+        <img src = "modern gifs/zahasankogif1.gif" width="100">
+        <img src = "modern gifs/zahasankogif2.gif" width="100">
+        <img src = "modern gifs/zahasankogif3.gif" width="100">
+    </div>
+<div class = "blog-container">
+        <div class = "blogs">
+            <p>no blogs found, get posting.</p>
+            <script src="blog.js"></script>
+
+                </div>
+        <div class = "blog-entry">
+                <input type="text" id="blog-title" placeholder="Enter blog title..." required>
+                <textarea id="blog-content" placeholder="Enter blog content..."></textarea>
+                <button id="blog-submit">SUBMIT</button>
+                
+                <script src ="submission.js"></script>
+                <input type="submit" id="blog-submit" value="UNDO">
+                <input type="submit" id="blog-submit" value="DELETE">
+                <input type="submit" id="blog-submit" value="EDIT">
+        </div>
+        
+</div>
+
+
+   
+    <section id = "moja-updater">
+            
+        <div class="version-mgm-container">
+            <h2>vErsIoN maNaGeMEnT</h2>
+
+            <div class="version-histories">
+                <script src="version-history.js"></script>
+             </div>
+
+        <textarea id="update-text" placeholder="Enter update details here..."></textarea>
+        <button id="update-button">Update</button>
+        <div class="update-log">
+
+        </div>
+
+        <br>
+
+         
+        <input type = "number" id = "version-number" placeholder = "version num?">
+        <button id = "version-button">update version</button>
+        <div class = "version-history"></div>
+        <br>
+
+    </section>
+
+
+
+<section id = "moja-console">
+
+    <h3>console</h3>
+
+    <div class ="boneloading">
+        <img src = "modern images/bone1" width="75" alt = "loading">
         
     </div>
 
+    </section>
+    
+</main>
 
+<nav class="bonenav">
+    <button class="corsadia">
+        <a href = "darknest.html">
+        <img src = "modern images/CORSADIA PROTOTYPE1 WHITE.png" width="75">
+            </a>
+    </button>
+
+    <button class="boneshop">
+        <a href="shop.html">
+        <img src="modern images/boneshop3x.png" alt="shop valley" width="75">    
+            </a>
+    </button>
+
+    <button class = "profile">
+        <a href="profile.html">  
+        <img src ="modern images/profile logo.png" alt = "profile" width="75">
+            </a>  
+    </button>
+
+    <button class = "creds">
+        <a href = "credits.html">
+        <img src = "modern images/credits.png" alt = "credits" width="75">
+            </a>
+    </button>
+    
+</nav>
+
+
+
+<footer>
+ <div class = "version">
+    <p>v1 :3</p>
+ </div>
+    <div class = "korsadia-copyright">
+        <p>KORSADIA © 2025</p>
+       </div>
+
+
+</footer>
     
 </body>
 </html>

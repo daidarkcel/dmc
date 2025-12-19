@@ -1,29 +1,47 @@
-body {background-color: black;
-     text-align: center;}
+body 
+{
+  background-color: black;
+  text-align: center;
+  color: white;
+}
 
-h1 {color: white; 
+h1 {
+color: white; 
 font-family: Dear Mr Pazuzu; 
 font-size: 80px;
-   text-align: center;}
-p {color: white;
+text-align: center;
+}
+p {
+  
+  color: white;
 font-family: 'Source', sans-serif;
 font-size: 20px;
-  text-align: center;}
-a {color: lightgoldenrodyellow;}
+  text-align: center;
+}
+a {
+  color: lightgoldenrodyellow;
+}
 
-button{background-color: black;
+button {
+  background-color: black;
 text-align: center;
 font-family: Helvetica;
-font-size: 10px;}
+font-size: 10px;
+}
 
 .legacy-navigation {
 
 position: relative;
-top: 0; }
+top: 0; 
+
+}
 
 .korsadia-copyright p {
 
   font-size: 10px;
   opacity: 0.3;
-  font-family: "Oxygene 1"
+  font-family: "Oxygene 1";
 }
+
+
+
