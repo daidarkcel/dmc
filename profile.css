@@ -6,7 +6,9 @@
              
              
 */
-
+.corsadia-logo {
+  position: relative;
+}
 
 .korsadia {
     transform: translateX(-50%);
