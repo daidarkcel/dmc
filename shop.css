@@ -10,9 +10,10 @@
 .shop-logo {
   position: absolute;
   top: 0;
+  left: 50%;
   translate: -50%;
-margin-top: 20px;
-
+  
+  
 }
 
 .misetani {
@@ -69,6 +70,7 @@ margin-top: 20px;
     margin: 0 auto;
     align-items: center;
     justify-content: center;
+    
 }
 
 

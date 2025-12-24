@@ -68,7 +68,15 @@ body::before {
                                            
 */
 
+header {
+  position: relative;
+}
 
+h1 {
+  font-size: 20px;
+  font-family: 'Disco';
+  text-shadow: 0px 0px 10px black;
+}
 #darknest-header 
 {
 
@@ -84,8 +92,9 @@ body::before {
 .darknest-main {
   font-family: 'Disco';
   margin-left: 2em;
-  position: absolute;
-  display: none;
+  position: relative;
+  bottom: 0;
+  
 }
 
 .darknest-main h1 {
@@ -168,7 +177,13 @@ font-family: 'Oxygene';
 
 }
 
-
+.navigation p {
+  position: relative;
+  font-size: 20px;
+  font-family: 'Disco';
+  text-align: center;
+  color: white;
+}
 
 #faq  {
 position: relative;
@@ -179,6 +194,7 @@ border: 2px solid white;
 font-family: 'Disco';
 padding: 2em;
 bottom: 0;
+width: 75vw;
 display: none;
 
 }
@@ -255,7 +271,7 @@ footer
 
 {
   display: flex;
-  position: absolute;
+  position: relative;
   align-items: center;
   justify-content: center;
   color: white;
