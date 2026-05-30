@@ -28,10 +28,30 @@ a.navi {
     
 }
 
+ul.navi a {
+    display: inline-block;
+    flex-direction: column;
+    border: white solid 2px;
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    list-style: none;
+    font-family: 'Crass';
+    color: white;
+    justify-content: center;
+}
+
+ul li
+{
+    list-style: none;
+}
+
 nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
 button.navdrop {
@@ -152,3 +172,10 @@ div.hatedbio {
     width: 50%;
     margin: 0 auto;
 }
+
+div.recipeinfo
+{
+    font-size: 20px;
+    width: 50%;
+    margin: 0 auto;
+}   
