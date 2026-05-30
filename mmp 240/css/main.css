@@ -145,3 +145,10 @@ span.description {
     src: url('fonts/FWPunkIsDead.ttf') format('truetype');
     
 }
+
+div.hatedbio {
+    
+    font-size: 20px;
+    width: 50%;
+    margin: 0 auto;
+}
